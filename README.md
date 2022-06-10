@@ -9,42 +9,7 @@
 
 **nmap scaning **
 
-Starting Nmap 7.92 ( https://nmap.org ) at 2022-06-10 12:15 EDT
-NSE: Loaded 155 scripts for scanning.
-NSE: Script Pre-scanning.
-NSE: Starting runlevel 1 (of 3) scan.
-Initiating NSE at 12:15
-Completed NSE at 12:15, 0.00s elapsed
-NSE: Starting runlevel 2 (of 3) scan.
-Initiating NSE at 12:15
-Completed NSE at 12:15, 0.00s elapsed
-NSE: Starting runlevel 3 (of 3) scan.
-Initiating NSE at 12:15
-Completed NSE at 12:15, 0.00s elapsed
-Initiating Connect Scan at 12:15
-Scanning 10.129.71.101 [1000 ports]
-Discovered open port 21/tcp on 10.129.71.101
-Discovered open port 80/tcp on 10.129.71.101
-Completed Connect Scan at 12:15, 14.31s elapsed (1000 total ports)
-Initiating Service scan at 12:15
-Scanning 2 services on 10.129.71.101
-Completed Service scan at 12:15, 6.63s elapsed (2 services on 1 host)
-NSE: Script scanning 10.129.71.101.
-NSE: Starting runlevel 1 (of 3) scan.
-Initiating NSE at 12:15
-NSE: [ftp-bounce 10.129.71.101:21] PORT response: 501 Server cannot accept argument.
-Completed NSE at 12:15, 3.79s elapsed
-NSE: Starting runlevel 2 (of 3) scan.
-Initiating NSE at 12:15
-Completed NSE at 12:15, 1.43s elapsed
-NSE: Starting runlevel 3 (of 3) scan.
-Initiating NSE at 12:15
-Completed NSE at 12:15, 0.00s elapsed
-Nmap scan report for 10.129.71.101
-Host is up, received user-set (0.20s latency).
-Scanned at 2022-06-10 12:15:20 EDT for 26s
-Not shown: 998 filtered tcp ports (no-response)
-PORT   STATE SERVICE REASON  VERSION
+
 21/tcp open  ftp     syn-ack Microsoft ftpd
 | ftp-syst: 
 |_  SYST: Windows_NT
